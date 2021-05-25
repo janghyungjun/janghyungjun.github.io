@@ -1,0 +1,32 @@
+body {
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+main {
+  width:100vw;
+  height:100vw;
+  border-top : 3px solid black;
+  position: relative;
+  background: rgb(250, 195, 185);
+  background: linear-gradient(to right bottom,rgb(250, 195, 185), white );
+}
+
+#wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#wrapper > div {
+  width: 15vw;
+  height: 13vw;
+  font-size: 3vw;
+  text-align: center;
+}
+
+#chooseButton {
+  margin: 0vw auto;
+  font-size: 2.5vw;
+  border-radius: 25%;
+  border: 0.25vw solid orange;
+  padding: 10px;
+}
